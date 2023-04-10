@@ -13,11 +13,11 @@ body {
 }
 
 .header {
-    background-color: red;
+    background-color: white;
 }
 
 .main_content {
-    background-color: #bad0d3;
+    background-color: #d4e3ea;
 }
 
 .link {
@@ -33,7 +33,7 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 4fr;
     grid-row: 1/3;
-    background-color: #4ba9e8;
+    background-color: #107fd0;
     padding-left: 20px;
     padding-top: 30px;
     gap: 30px;
@@ -71,4 +71,96 @@ a {
     text-decoration: none;
     color: white;
     font-weight: 600;
+}
+
+.search {
+    width: 95%;
+    height: 25px;
+    background-color: #d4e3ea;
+    border-radius: 25px;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    grid-template-rows: 1fr 2.5fr;
+    align-items: center;
+    padding: 15px 0px 10px 20px;
+}
+
+.header_right {
+    display: grid;
+    grid-template-columns: .3fr .4fr 1fr;
+    align-items: center;
+    width: 250px;
+    justify-items: end;
+    margin-left: 100px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.header_left {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    width: 400px;
+    
+}
+
+.image_1 {
+    grid-row: span 2;
+    padding-right: 15px;
+}
+
+.small_text {
+    font-size: .8rem;
+    margin-bottom: -15px;
+    font-weight: 700;
+}
+
+
+.bigger_text {
+    margin-top: 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+  
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px; 
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 280px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+
+.button {
+    border-radius: 100px;
+    background-color: #107fd0;
+    color: white;
+    padding: 5px 6px 7px 6px;
+    width: 78px;
+    border: 1px solid #107fd0;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    transition: .5s ease;
+    cursor: pointer;
 }
